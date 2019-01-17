@@ -38,4 +38,7 @@ text('1. Reach the end of the maze without touching the walls', 10, 830);
 text('2. Retrive the hidden coin', 10, 870);
 fill(brightred);
 //rules
+if (mouseX> 700&&mouseX<700+50&&mouseY>670&&mouseY<670+15){
+  background(0);
+}
 }
